@@ -1,0 +1,18 @@
+Package: testcustomrmdcheck
+Title: Test Customized R CMD Check
+Version: 0.0.0.9000
+Authors@R:
+    c(person(given = "Shu Fai",
+             family = "Cheung",
+             role = c("aut", "cre"),
+             email = "shufai.cheung@gmail.com",
+             comment = c(ORCID = "0000-0002-9871-9448")))
+Description: Test Customized R CMD Check.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests:
+    testthat (>= 3.0.0),
+    psych
+Config/testthat/edition: 3
